@@ -4,6 +4,23 @@
 > Go 语言的主要目标是将静态语言的安全性和高效性与动态语言的易开发性进行有机结合，
 > 达到完美平衡，从而使编程变得更加有乐趣，而不是在艰难抉择中痛苦前行。
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [go语言学习demo](#go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0demo)
+    - [go基础](#go%E5%9F%BA%E7%A1%80)
+        - [安装配置go环境](#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEgo%E7%8E%AF%E5%A2%83)
+        - [基本结构与基本数据类型](#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+        - [空控制结构](#%E7%A9%BA%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)
+        - [函数](#%E5%87%BD%E6%95%B0)
+        - [数据、切片](#%E6%95%B0%E6%8D%AE%E5%88%87%E7%89%87)
+        - [Map](#map)
+        - [包](#%E5%8C%85)
+        - [结构与方法](#%E7%BB%93%E6%9E%84%E4%B8%8E%E6%96%B9%E6%B3%95)
+        - [接口与反射](#%E6%8E%A5%E5%8F%A3%E4%B8%8E%E5%8F%8D%E5%B0%84)
+    - [go高级](#go%E9%AB%98%E7%BA%A7)
+    - [参考](#%E5%8F%82%E8%80%83)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## go基础
 
 ### 安装配置go环境 
@@ -16,6 +33,7 @@ scoop install golang
 
 参考[GOPROXY](https://goproxy.io/zh/) 更改go module代理
 
+go module常用命令
 ~~~shell
 go mod init  # 初始化 go.mod
 go mod tidy  # 更新依赖文件
@@ -34,9 +52,6 @@ GOPATH路径在用户目录的go文件夹，也可以自行更改，window修改
 - **src**：存放源代码
 - **bin**：编译后生成的可执行文件
 - **pak**：编译后生成的文件
-
-go module常用命令
-
 
 ### 基本结构与基本数据类型
 

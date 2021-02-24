@@ -13,6 +13,14 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+node_modules
+package.json
+package-lock.json
+
+.idea
+
 # Dependency directories (remove the comment below to include it)
+
 # vendor/
+
 
