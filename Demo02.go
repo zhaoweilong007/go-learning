@@ -5,6 +5,13 @@ import (
 	"fmt"
 )
 
+var v1 int
+
+//初始化函数
+func init()  {
+	v1=123
+}
+
 func main() {
 	/**
 	go基础语法
@@ -40,6 +47,12 @@ func main() {
 	str2 := "str2"
 	fmt.Println(str1, str2)
 
+	//申明多行字符串
+	str3 := `hello
+			go`
+
+	fmt.Println(str3)
+
 	err := errors.New("NullPrintException")
 	if err != nil {
 		fmt.Println(err)
@@ -58,33 +71,28 @@ func main() {
 	)
 	fmt.Println(i, s, f)
 
-	//数组
+	//数组 数组不可动态变化，一旦申明，其长度就是固定的
 	//一维数组
 	var arr_1 [3]int
 	fmt.Println(arr_1)
 
-	arr2:=[]string{"a","b","c"}
+	arr2 := []string{"a", "b", "c"}
 	fmt.Println(arr2)
 
-	arr3:=[...]int{1,2,34,5,6,2,2}
+	// 使用...来自动计算数组长度
+	arr3 := [...]int{1, 2, 34, 5, 6, 2, 2}
 	fmt.Println(arr3)
 
-	arr4:=[8]int{0:3, 4:5, 7:9}
+	arr4 := [8]int{0: 3, 4: 5, 7: 9}
 	fmt.Println(arr4)
 
 	//二维数组
+	arr5 := [2][3]int{{1, 2, 3}, {3, 2, 5}}
+	fmt.Println(arr5)
 
+	arr6 := [...][2]int{{12, 2}, {213, 23}}
 
-	//切片
-
-
-	//map
-
-
-	//struct结构
-
-
-	//序列化
+	fmt.Println(arr6)
 
 
 }
