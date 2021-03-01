@@ -8,15 +8,11 @@ import (
 var v1 int
 
 //初始化函数
-func init()  {
-	v1=123
+func init() {
+	v1 = 123
 }
 
 func main() {
-	/**
-	go基础语法
-	*/
-
 	//变量申明
 	var str string = "zhangsan"
 	fmt.Println(str)
@@ -93,6 +89,5 @@ func main() {
 	arr6 := [...][2]int{{12, 2}, {213, 23}}
 
 	fmt.Println(arr6)
-
 
 }

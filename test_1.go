@@ -1,5 +1,7 @@
 package main
+
 var a string
+
 //输出GOG
 func main() {
 	a = "G"
