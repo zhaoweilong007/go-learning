@@ -52,7 +52,7 @@ func main() {
 
 	//panic、recover用于错误处理机制
 
-	var where=log.Println
+	var where = log.Println
 
 	where("qeqweqweqw")
 

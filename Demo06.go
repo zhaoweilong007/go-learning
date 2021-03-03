@@ -44,17 +44,15 @@ func main() {
 
 	//标签与goto
 
-	LABLE1:
-		for i := 0; i < 5; i++ {
-			for j := 0; i < 5; j++ {
-				if j==4 {
-					continue LABLE1
-				}
-				fmt.Printf("i:%d,j:%d\n",i,j)
+LABLE1:
+	for i := 0; i < 5; i++ {
+		for j := 0; i < 5; j++ {
+			if j == 4 {
+				continue LABLE1
 			}
-			
+			fmt.Printf("i:%d,j:%d\n", i, j)
 		}
-
+	}
 
 }
 

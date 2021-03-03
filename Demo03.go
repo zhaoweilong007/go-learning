@@ -33,29 +33,28 @@ func main() {
 	fmt.Printf("s3 len%s,cap%s\n", len(s3), cap(s3))
 	fmt.Printf("s4 len%s,cap%s\n", len(s4), cap(s4))
 
-	arr1:=new([3]int)
-	arr2:=[3]int{1,2,3}
+	arr1 := new([3]int)
+	arr2 := [3]int{1, 2, 3}
 
 	//拷贝
-	arr1=&arr2
-	fmt.Printf("arr1:%v\n",arr1)
-	fmt.Printf("arr2:%v\n",arr2)
+	arr1 = &arr2
+	fmt.Printf("arr1:%v\n", arr1)
+	fmt.Printf("arr2:%v\n", arr2)
 
-	arr1[0]=3
-	fmt.Printf("arr2:%v\n",arr2)
+	arr1[0] = 3
+	fmt.Printf("arr2:%v\n", arr2)
 
-	arr2[2]=5
-	fmt.Printf("arr1:%v\n",arr1)
+	arr2[2] = 5
+	fmt.Printf("arr1:%v\n", arr1)
 
 	//指定索引位置赋值
-	str:=[...]string{1:"hello",4:"my body"}
-	fmt.Printf("str:%v\n",str)
+	str := [...]string{1: "hello", 4: "my body"}
+	fmt.Printf("str:%v\n", str)
 
-	arr3:=make([]int,10,20)
+	arr3 := make([]int, 10, 20)
 	for i := 0; i < 10; i++ {
-		arr3[i]=i
+		arr3[i] = i
 	}
-	fmt.Println("arr3:",arr3)
-
+	fmt.Println("arr3:", arr3)
 
 }

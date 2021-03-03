@@ -1,21 +1,22 @@
-# go语言学习demo
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# go语言学习demo
+
 - [go语言学习demo](#go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0demo)
-    - [go基础](#go%E5%9F%BA%E7%A1%80)
-        - [安装配置go环境](#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEgo%E7%8E%AF%E5%A2%83)
-        - [基本结构与基本数据类型](#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-        - [空控制结构](#%E7%A9%BA%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)
-        - [函数](#%E5%87%BD%E6%95%B0)
-        - [数据、切片](#%E6%95%B0%E6%8D%AE%E5%88%87%E7%89%87)
-        - [Map](#map)
-        - [包](#%E5%8C%85)
-        - [结构与方法](#%E7%BB%93%E6%9E%84%E4%B8%8E%E6%96%B9%E6%B3%95)
-        - [接口与反射](#%E6%8E%A5%E5%8F%A3%E4%B8%8E%E5%8F%8D%E5%B0%84)
-    - [go高级](#go%E9%AB%98%E7%BA%A7)
-    - [参考](#%E5%8F%82%E8%80%83)
+  - [go基础](#go%E5%9F%BA%E7%A1%80)
+    - [安装配置go环境](#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEgo%E7%8E%AF%E5%A2%83)
+    - [基本结构与基本数据类型](#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+    - [控制结构](#%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)
+    - [函数](#%E5%87%BD%E6%95%B0)
+    - [数组、切片](#%E6%95%B0%E7%BB%84%E5%88%87%E7%89%87)
+    - [Map](#map)
+    - [结构与方法](#%E7%BB%93%E6%9E%84%E4%B8%8E%E6%96%B9%E6%B3%95)
+    - [接口与反射](#%E6%8E%A5%E5%8F%A3%E4%B8%8E%E5%8F%8D%E5%B0%84)
+  - [go高级](#go%E9%AB%98%E7%BA%A7)
+  - [参考](#%E5%8F%82%E8%80%83)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## go基础
 > "21世纪的c语言",go语言起源于2007年，并于2009年正式对外发布，
@@ -43,7 +44,7 @@ go mod edit  # 手动修改依赖文件
 go mod graph  # 打印依赖图
 go mod verify  # 校验依赖
 ~~~
-
+ 
 _安装go的ide工具，我这里使用的是jetbrains的goland工具,或者使用idea，安装go的开发插件_
 
 GOPATH路径在用户目录的go文件夹，也可以自行更改，window修改环境变量即可
@@ -54,15 +55,14 @@ GOPATH路径在用户目录的go文件夹，也可以自行更改，window修改
 
 ### 基本结构与基本数据类型
 
-### 空控制结构
+
+### 控制结构
 
 ### 函数
 
-### 数据、切片
+### 数组、切片
  
 ### Map
-
-### 包
  
 ### 结构与方法
 
