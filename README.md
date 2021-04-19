@@ -50,17 +50,17 @@ GOPATH路径在用户目录的go文件夹，也可以自行更改，window修改
 
 ### 基本结构与基本数据类型
 
-- [变量申明](Demo02.go)
-- [slice切片](Demo03.go)
-- [strings和strconv包](Demo04.go)
-- [取值符&和反引用*](Demo05.go)
-- [条件及控制语句](Demo06.go)
-- [函数申明](Demo07.go)
-- [map和struct结构](Demo08.go)
-- [new和make使用](Demo09.go)
-- [接口](Demo10.go)
-- [空接口](Demo11.go)
-- [反射](Demo12.go)
+- [变量申明](base/Demo02.go)
+- [slice切片](base/Demo03.go)
+- [strings和strconv包](base/Demo04.go)
+- [取值符&和反引用*](base/Demo05.go)
+- [条件及控制语句](base/Demo06.go)
+- [函数申明](base/Demo07.go)
+- [map和struct结构](base/Demo08.go)
+- [new和make使用](base/Demo09.go)
+- [接口](base/Demo10.go)
+- [空接口](base/Demo11.go)
+- [反射](base/Demo12.go)
 
 ## go高级
 
